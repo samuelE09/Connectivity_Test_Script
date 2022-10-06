@@ -37,7 +37,7 @@ data_upload = []
 
 print("Empezando a Realizar la primera Validacion del Ping")
 TEST_START =datetime.now()
-print(TEST_START)
+print(f"Inicio: {TEST_START}")
 
 
 for id, ip in data_end.items():
@@ -59,9 +59,9 @@ for data_file in data_upload:
 
 wb.save(filename= dest_filename)
 TEST_END =datetime.now()
-print(TEST_END)
-print("Test Finalizado")
-print(TEST_END-TEST_START)
+print(f"FIN : {TEST_END}")
+print("Test Finalizado | Reporte Generado")
+print(f"Tiempo: {TEST_END-TEST_START}")
 
     
     
