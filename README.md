@@ -11,6 +11,13 @@ Script para Verificar si se tienen Conectividad a un Host (IP)
 para planificar su respectvo mantenimiento, ya que este script podria ser ejecutado cada 7 o 15 dias, quedando 
 por decision del usuario.
 
+# Instalación de Dependencias 
+
+Tener Instalado Python en el computador
+
+Ejecutar el siguiente comando en la terminar CMD (Windows + R -> cmd) para instalar las dependencias y modulos necesarios para 
+
+pip install -r requirements.txt
 
 Contacto: https://t.me/SamCodepy 
 
